@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/christ-blue-logo.png">
+    </header>
+    <section class="wrapper">
+        <div class="timer-wrapper">
+            <h1 class="title-stopwatch">Stopwatch
+                <span class="app">App</span>
+            </h1>
+            <div>
+                <div class="js-timer-display circle">
+                    <div class="timer">
+                        <div class="js-hours hours">00</div>
+                        <div class="js-minutes minutes">: 00</div>
+                        <div class="js-seconds seconds">: 00</div>
+                        <div class="js-milli-sec milli-sec"> 00</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="js-button-row">
+            <button class="js-start-btn pause-btn start-btn" onclick="startPause()">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <button class="js-stop-btn stop-btn" onclick="stopTimer()">
+                <i class="fa-solid fa-rotate-left">
+
+                </i></button>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Created By <span>Christian</span> | © 2023 All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>

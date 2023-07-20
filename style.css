@@ -1,0 +1,136 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    color: floralwhite;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #0a0a0a;
+}
+
+header img {
+    width: 130px;
+    margin-left: 5%;
+}
+
+body {
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+
+}
+.wrapper {
+    padding: 2em 5em 5em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+    border-radius: 40px;
+
+    box-shadow: inset 2px 2px 4px rgba(255,255,255,.3), 3px 3px 10px rgba(5,5,5,1);
+}
+
+.title-stopwatch {
+    margin-top: 0;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins ExtraBold", serif;
+    font-size: 30px;
+    color: rgb(235 235 235);
+}
+.app {
+    font-weight: 900;
+    padding-left: 10px;
+
+    color: rgb(0 0 255);
+    text-shadow: 0 0 0 #fff, 0 0 50px rgb(0 0 200);
+}
+
+.circle {
+    margin: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    height: 270px;
+    width: 270px;
+
+    box-shadow: inset 0 0 20px rgba(0,0,0,1), 0 0 20px rgba(0, 0, 253, .8);
+    border-radius: 50%;
+    background-color: rgb(28, 29, 40);
+}
+
+.timer  {
+    margin-left: 17%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.milli-sec {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.seconds {
+    padding-left: 10px;
+}
+
+.hours {
+    padding-right: 10px;
+}
+
+.js-button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.js-button-row > button {
+    background-color: rgb(15, 15, 15);
+    border: none;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Poppins Medium", serif;
+
+    transition: all .2s;
+    box-shadow: inset 2px 2px 2px rgba(200,200,200,.3), 8px 8px 10px rgba(0,0,0,1);
+}
+
+.js-button-row > button:active {
+    background-color: rgb(10 10 10);
+    box-shadow: inset 4px 4px 20px rgba(0,0,0,1), inset -1.5px -1.5px 5px rgba(245,245,245,.15);
+}
+
+button i {
+    font-size:25px;
+}
+
+footer p span {
+    color: #0d106e;
+    font-weight: bold;
+}
+
+
